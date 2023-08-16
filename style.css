@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(15, 20, 28);
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    min-height:100vh ;
+    background-image:url("new2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+.container{
+    width: 350px;
+    padding: 45px;
+    text-align: center;
+    background-color:mediumturquoise;
+    margin-left: 30%;
+    margin-right: 6px;
+}
+
+input{
+    width: 280px;
+    padding: 9px;
+    border: 3px solid mediumseagreen ;
+    outline: none;
+    font-size: 20px;
+}
+
+button{
+    width: 60px;
+    height: 41px;
+    background-color:rgb(255, 0, 191) ;
+    color: rgb(19, 16, 16);
+    border: black;
+    outline:none;
+    border-radius: 2px;
+    font-size: 19px;
+}
+
+.text ul{
+  position: relative;
+  background-color:rgb(167, 218, 231);
+  color:black;
+  font-size: 19px;
+  padding: 7px;
+  text-emphasis: left;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
